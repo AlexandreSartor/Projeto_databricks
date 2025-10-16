@@ -29,6 +29,16 @@ Este projeto demonstra um **pipeline de dados usando Databricks e Delta Lake**, 
 - Rome  
 
 ---
+## 1. Clonar o repositório via HTTPS
+
+No terminal, execute o comando abaixo para clonar o repositório:
+
+```bash
+git clone https://github.com/AlexandreSartor/Projeto_databricks.git
+```
+Execute ```uv sync``` para sincronizar dependências
+
+---
 
 Versão do python utilizada: 3.13.7.
 
@@ -47,8 +57,6 @@ Comandos para vizualizar a documentação localmente:
 
 ```bash
 pip install mkdocs mkdocs-material
-
-mkdocs serve
 
 Normalmente acessível em http://127.0.0.1:8000/
 ```
