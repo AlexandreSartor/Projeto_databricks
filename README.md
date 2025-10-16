@@ -29,3 +29,27 @@ Este projeto demonstra um **pipeline de dados usando Databricks e Delta Lake**, 
 - Rome  
 
 ---
+
+Versão do python utilizada: 3.13.7.
+
+Projeto python inicializado com o UV .
+
+Comandos utilizados para setup do ambiente:
+
+```bash 
+uv init .
+pyenv local 3.13.7
+uv venv
+source .venv/bin/activate
+```
+
+Comandos para vizualizar a documentação localmente:
+
+```bash
+pip install mkdocs mkdocs-material
+
+mkdocs serve
+
+Normalmente acessível em http://127.0.0.1:8000/
+```
+**Nota:** Entrar na pasta "docs" para rodar os comandos mkdocs
