@@ -1,9 +1,14 @@
 # Projeto Databricks
 
-Este projeto demonstra um **pipeline de dados usando Databricks e Delta Lake**, aplicado a dados de Airbnb de oito cidades europeias. Ele transforma dados brutos (landing/bronze) em uma camada estruturada para análise (silver e gold).
+Recomenda-se utilizar o WSL no Windows 11 ou outra distribuição Linux. Evite rodar diretamente no Windows, pois seriam necessárias diversas configurações adicionais para que tudo funcione corretamente.
 
+Neste laboratório, foi adotado o Ubuntu 24.04 como sistema operacional.
+
+<img width="981" height="444" alt="Image" src="https://github.com/user-attachments/assets/aff64b42-434c-4ca7-a84f-c7b11396bfd7" />
 
 ---
+
+Este projeto demonstra um **pipeline de dados usando Databricks e Delta Lake**, aplicado a dados de Airbnb de oito cidades europeias. Ele transforma dados brutos (landing/bronze) em uma camada estruturada para análise (silver e gold).
 
 
 
@@ -15,7 +20,7 @@ Este projeto demonstra um **pipeline de dados usando Databricks e Delta Lake**, 
 - **gold**: tabelas Delta finais, com dados preparados para análise e indicadores calculados
 
 ---
----
+
 
 ## Cidades Processadas
 
