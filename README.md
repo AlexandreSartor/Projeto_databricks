@@ -61,7 +61,7 @@ source .venv/bin/activate
 Comandos para vizualizar a documentação localmente:
 
 ```bash
-pip install mkdocs mkdocs-material
+uv add mkdocs mkdocs-material
 
 Normalmente acessível em http://127.0.0.1:8000/
 ```
